@@ -4,6 +4,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 # Install some basic utilities
 RUN apt-get update && apt-get install -y \
+    python3.8-venv \
     curl \
     ca-certificates \
     sudo \
