@@ -28,8 +28,7 @@ RUN adduser --disabled-password --gecos '' --shell /bin/bash user \
 # All users can use /home/user as their home directory
 ENV HOME=/home/user
 
-# Clonse https://github.com/xpcapital/webui-api.git
-RUN git clone https://github.com/xpcapital/webui-api.git /app
+ADD . /app
 
 # Set the working directory to /app
 WORKDIR /app

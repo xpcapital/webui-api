@@ -34,3 +34,4 @@ notification.mp3
 /cache.json*
 /config_states/
 .history
+.lh
